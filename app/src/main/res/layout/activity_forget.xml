@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2ebb98">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Enter Your Email"
+        android:textColor="#fff"
+        android:textSize="26dp"
+        android:textStyle="bold"
+
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
+
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:hint="Enter Your Email"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true">
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:text="Reset Password"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg_stroke"
+        android:id="@+id/reset_btn"
+
+
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/user_email"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
